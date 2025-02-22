@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="kk.css" rel="stylesheet">
+    <script src="kk.js" defer></script>
 </head>
 <body>
-    
+    <h1>Guess the Number Game</h1>
+    <h4>You have to guess a number from 1 to 10 </h4>
+        <label for="guessField">Enter your number here</label>
+        <input type="number" id="guessField" class="guessField">
+        <button type="submit" class="guessbtn">Guess</button>
+        <button type ="button" class="restartbtn">Restart</button>
+        <p id="result" style="color:black"></p>
+        <p id="attempts" style="color:black"></p>
 </body>
 </html>
